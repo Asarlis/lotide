@@ -1,1 +1,3 @@
-_.without([2, 1, 2, 3], 1, 2);
+const assertArraysEqual = require('./assertArraysEqual');
+
+https://web.compass.lighthouselabs.ca/activities/816
