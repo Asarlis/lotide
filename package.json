@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "name": "@asarlis/lotide",
+  "version": "1.0.1",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library",
+  "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
@@ -13,13 +13,17 @@
     "type": "git",
     "url": "git+https://github.com/Asarlis/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name": "Sean Day"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Asarlis/lotide/issues"
   },
   "homepage": "https://github.com/Asarlis/lotide#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lotide": "^1.0.1"
+  },
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^8.3.2"
